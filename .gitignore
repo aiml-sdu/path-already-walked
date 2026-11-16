@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+results_smoke/
+results/ec_per_prompt.npy
+*.log
+.DS_Store

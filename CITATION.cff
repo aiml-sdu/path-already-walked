@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper."
+title: "A Path Already Walked: worked example"
+authors:
+  - family-names: Konrad
+    given-names: Phongsakon Mark
+  - family-names: Tanyel
+    given-names: Toygar
+  - family-names: Ayvaz
+    given-names: Serkan
+license: MIT
+repository-code: "https://github.com/aiml-sdu/path-already-walked"
+preferred-citation:
+  type: article
+  title: "A Path Already Walked: On Inheriting Network-Neuroscience Tools for Mechanistic Interpretability"
+  authors:
+    - family-names: Konrad
+      given-names: Phongsakon Mark
+    - family-names: Tanyel
+      given-names: Toygar
+    - family-names: Ayvaz
+      given-names: Serkan
+  year: 2026
+  journal: "arXiv"
