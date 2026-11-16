@@ -2,7 +2,9 @@
 
 Code, pre-registration and results for the worked example in
 
-> Phongsakon Mark Konrad, Toygar Tanyel, Serkan Ayvaz. *A Path Already Walked: On Inheriting Network-Neuroscience Tools for Mechanistic Interpretability.* arXiv, 2026.
+> Phongsakon Mark Konrad, Toygar Tanyel, Serkan Ayvaz. *A Path Already Walked: On Inheriting Network-Neuroscience Tools for Mechanistic Interpretability.* arXiv, 2026. An earlier version was presented at the ICML 2026 Workshop on Mechanistic Interpretability (Seoul).
+
+[Project page](https://aiml-sdu.github.io/path-already-walked-page/) · [OpenReview](https://openreview.net/forum?id=dSfjkJB3bQ) · arXiv (identifier to follow)
 
 The paper argues that a graph claim about a transformer is only meaningful once it declares its nodes, edges, prompt distribution, threshold, null model and behavioural target. This repository runs one such declared test on GPT-2 small. It builds the paper's gradient effective-connectivity graph over the 144 attention heads on indirect-object-identification prompts. It then tests two translations from the paper's Table 2, rich-club ordering and modularity, against a null that keeps degree, layer-pair edge counts and layer order. Both predictions were pre-registered, and both fail. The paper (Section 6) and `RESULTS.md` explain why.
 
